@@ -1,1 +1,3 @@
 # crealive-case-study
+
+Laravel ile yapılmış CRUD temelli bir web sitesidir. Kategoriler arası arama mantığı için Tree yapısı kullanılmıştır. Sonuçları göstermek için "Level Order Traversal" gezinme yöntemi kullanılmıştır. Her bir kategorinin sonsuz tane alt kategorisi olabilir. Bir üst kategori altındaki bütün kategorileri de kapsayacak şekilde arama sonuçları getirir. İçerik görüntüleme, listeleme ve düzenleme kısımları bulunmakta. Projedeki migration ve seeder yapıları doğru çalışmaktadır, direkt olarak kullanabilirsiniz.
